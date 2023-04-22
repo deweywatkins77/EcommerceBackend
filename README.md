@@ -29,15 +29,16 @@ npm i
 
 ## Usage
 
-Setup your .env file for DB access. Run schema.sql in the DB folder to initialize the DB. There are seed files in the seeds folder. You can run all the seeds by using npm run seed. Once that is all setup you can start the app with npm run start. You can get all entries, get one entry by id, create a record, update a record by id, and delete a record by id for
+Setup your .env file for DB access. Run schema.sql in the db folder to initialize the DB. There are seed files in the seeds folder. You can run all the seeds by using npm run seed. Once that is all setup you can start the app with npm run start. 
+
+You can get all entries, get one entry by id, create a record, update a record by id, and delete a record by id for
 each of the following routes
 
 /api/products
 /api/categories
 /api/tags
 
-For getting one entry by id, updating a record by id, and deleting a record by id you will need to append an id number to the path. For example, using the DELETE method with
-/api/products/1, will delete the record with an id of one in the products table.
+For getting one entry by id, updating a record by id, and deleting a record by id you will need to append an id number to the path. For example, using the DELETE method with /api/products/1, will delete the record with an id of 1 in the products table.
 
 [How to use](https://watch.screencastify.com/v/YFAxefnj1ARTfdzymhH3) the API.
 
